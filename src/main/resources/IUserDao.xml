@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--namespace为接口-->
+<mapper namespace="com.class04.day01.dao.IUserDao">
+    <!--    配置查询所有-->
+    <!--    注意id：方法名称-->
+    <select id="findAll" resultType="com.class04.day01.domain.User">
+        select * from user;
+    </select>
+
+</mapper>
